@@ -1,0 +1,311 @@
+.root {
+  /* flex: 0 0 290px; */
+
+  /* border-right: 1px rgb(222, 222, 222) solid; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+ul {
+  margin: 1rem;
+  padding: 0;
+}
+
+/* .header {
+  display: grid;
+  padding: 0 1rem;
+} */
+
+.header__image {
+  margin: 0.5rem auto;
+}
+
+/* .header__image-grid {
+  grid-column: 1;
+  grid-row: 1/3;
+} */
+
+/* .header__display-name {
+  grid-column: 2/4;
+  grid-row: 1;
+  font-size: 1.2rem;
+  margin: 0;
+} */
+
+/* .header__username {
+  grid-column: 2/4;
+  grid-row: 2;
+  margin: 0;
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+} */
+
+/* .header__username:hover {
+  text-decoration: underline;
+} */
+
+.follower-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem;
+  flex-wrap: nowrap;
+}
+
+.follower-info__item {
+  flex: 0 0 22%;
+  margin-top: 0;
+}
+
+.follower-info__item__value {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.follower-info__item__description {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+/* .filters {
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+} */
+
+.filter-group {
+  padding: 0 0 0 0.5rem;
+  margin: 0;
+  display: flex;
+  border-bottom: rgb(222, 222, 222) solid 1px;
+  height: 3rem;
+  width: 100%;
+}
+
+.filter_group__container {
+  width: 100%;
+}
+
+.filter-group:first-child {
+  border-top: rgb(222, 222, 222) solid 1px;
+}
+
+/* .filter__header,
+.filter-group__header {
+  font-weight: normal;
+  margin: 0 0.5rem;
+  padding: 1rem 0 0.5rem;
+  border-bottom: 1px dashed rgb(237, 237, 237);
+} */
+
+/* .filter-group__name {
+  flex: 0 0 80%;
+  font-weight: normal;
+  margin: 0.5rem 0;
+  line-height: 2rem;
+} */
+
+.filter-group--active {
+  background-color: rgb(243, 243, 243);
+}
+
+/* .filter-group__icon {
+  flex: 0 0 20%;
+  text-align: center;
+  line-height: 3rem;
+} */
+
+.filter__input {
+  display: block;
+  margin: 0.5rem 5% 0;
+  padding: 0;
+  width: 90%;
+  background-color: rgb(235, 235, 235);
+
+  /* flex: 1 1 100%; */
+
+  /* line-height: 2rem; */
+  border-radius: 0.25rem;
+}
+
+.filter__input__select {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+}
+
+/* .filter__input__select--default {
+  color: rgb(139, 139, 139);
+} */
+
+/* .filter_input div::before {
+  border-bottom: none;
+} */
+
+/* .filter__header {
+  flex: 1 1 100%;
+  line-height: 2rem;
+  border-radius: 0.25rem;
+} */
+
+/* .filter_input_element::before{
+  border-bottom: none;
+} */
+
+/* .filter__input__sentiment
+{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.filter__input__distance,
+.filter__input__followers,
+.filter__input__location {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  height: 45px;
+}
+
+.filter__input__distance__root,
+.filter__input__followers__root,
+.filter__input__location__root {
+  width: 100%;
+}
+
+/* .filter__input__sentiment svg,  {
+  flex: 0 0 15%;
+  line-height: 2rem;
+} */
+
+.filter__input__distance svg,
+.filter__input__followers svg,
+.filter__input__location svg {
+  flex: 0 0 15%;
+  line-height: 2rem;
+  padding-left: 0.5rem;
+}
+
+/* .filter__input__sentiment__options button, */
+
+/* .filter__input__sentiment button, */
+.filter__input__distance input,
+.filter__input__followers input,
+.filter__input__location input {
+  color: rgb(97, 97, 97);
+  border: none;
+  line-height: 2rem;
+  display: block;
+  padding-left: 0.5rem;
+  flex: 1 1 78%;
+  text-align: left;
+
+  /* background-color: rgb(237, 237, 237); */
+}
+
+.filter__input__followers input::placeholder,
+.filter__input__distance input::placeholder,
+.filter__input__location input::placeholder {
+  color: rgb(97, 97, 97);
+}
+
+/* .filter__input__sentiment button svg {
+  margin-right: 0.5rem;
+} */
+
+.filter__input_subtitle {
+  font-size: 0.7rem;
+  margin: 0.1rem 2rem 0.25rem;
+}
+
+/* .filter__input__sentiment__options {
+  margin: -0.9rem 5% 0;
+  padding: 0 0.25rem;
+  width: 90%;
+  flex: 1 1 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgb(170, 170, 170);
+  background-color: white;
+} */
+
+/* button.filter__input__sentiment__option {
+  width: 100%;
+  background-color: white;
+  border-bottom: 0.1rem solid rgb(237, 237, 237);
+  line-height: 2.5rem;
+} */
+
+/* button.filter__input__sentiment__option:first-of-type {
+  border-radius: 0.5rem 0.5rem 0 0;
+} */
+
+/* button.filter__input__sentiment__option:last-of-type {
+  border-radius: 0 0 0.5rem 0.5rem;
+  border-bottom: none;
+} */
+
+/* .filter-buttons {
+  margin: 1rem;
+  display: flex;
+  width: 100%;
+} */
+
+.filter-buttons__export,
+.filter-buttons__filter,
+.filter-buttons__reset {
+  text-transform: uppercase;
+  margin: 0;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.filter-buttons__filter {
+  flex: 1 0 60%;
+
+  /* background-color: rgb(33, 33, 33); */
+
+  /* color: white; */
+}
+
+.filter-buttons__reset {
+  flex: 1 0 30%;
+
+  /* color: rgb(33, 33, 33); */
+
+  /* background-color: white; */
+
+  /* border: 1px solid rgb(97, 97, 97); */
+}
+
+.filter-buttons__export {
+  display: block;
+  margin: 0 auto;
+
+  /* color: rgb(33, 33, 33); */
+
+  /* background-color: white; */
+
+  /* border: 1px solid rgb(97, 97, 97); */
+
+  /* padding-left: 1.25rem;
+  padding-right: 1.25rem; */
+
+  /* width: 40%; */
+  text-align: center;
+  text-decoration: none;
+}
+
+.filter-buttons__export--sticky {
+  position: sticky;
+  top: 92vh;
+}
+
+.icon {
+  margin-right: 1rem;
+}

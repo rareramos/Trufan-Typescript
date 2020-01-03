@@ -1,0 +1,98 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+
+/* .root {
+  padding: 0;
+  color: rgb(97, 97, 97);
+} */
+
+/*
+.container {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+} */
+
+.button {
+  white-space: nowrap;
+
+  /* flex: 0 0 15%; */
+
+  /* padding: 0.5rem 0.75rem; */
+  margin: 0.5rem 0.25rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  display: inline;
+  text-transform: uppercase;
+
+  /* letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-size: 0.9rem; */
+  text-align: center;
+
+  /* max-width: 200px; */
+}
+
+.button--light {
+  background-color: white;
+  color: rgb(33, 33, 33);
+  border: 1px solid rgb(33, 33, 33);
+}
+
+.button--dark {
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+
+/* .dashboard__cards {
+  flex: 1 1 75%;
+  background-color: rgb(250, 250, 250);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 2.5rem;
+} */
+
+.dashboard__toolbar {
+  /* display: flex;
+  height: 3rem;
+  padding-top: 1rem;
+  padding-right: 0.25rem;
+  flex-wrap: wrap; */
+  top: 60px;
+}
+
+/* .dashboard__toolbar__xofy {
+  flex: 0 1 100px;
+  line-height: 2.75rem;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 0.5rem;
+} */
+
+.dashboard__toolbar_buttons_container {
+  flex: 1 0 40%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.toast {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  border-radius: 0.5rem;
+  bottom: 1rem;
+}
+
+.toast__button {
+  color: white;
+  font-size: 0.9rem;
+  font-variant: small-caps;
+}

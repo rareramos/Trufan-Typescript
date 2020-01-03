@@ -1,0 +1,98 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+:root {
+  --brand-color: #61dafb;
+}
+
+.root {
+  background: #fff;
+  color: #000;
+  border-bottom: silver 1px solid;
+  height: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.container {
+  margin: 0 auto;
+
+  /* max-width: var(--max-content-width); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.container div {
+  display: flex;
+}
+
+.brand {
+  color: color(var(--brand-color) lightness(+10%));
+  text-decoration: none;
+  font-size: 1.75em; /* ~28px */
+  flex: 0 0 200px;
+  height: 2rem;
+  line-height: 2rem;
+  margin: 0.5rem 0;
+}
+
+/* .brandTxt {
+  margin-left: 10px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.bannerTitle {
+  margin: 0;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1em;
+}
+
+.bannerDesc {
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25em;
+  margin: 0;
+} */
+
+.link {
+  padding: 3px 8px;
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 1.125em; /* ~18px */
+  flex: 1 0 100px;
+  height: 24rem;
+  line-height: 2rem;
+  margin-right: 0.25rem;
+}
+
+.link,
+.link:active,
+.link:visited {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.remaining-messages {
+  background-color: rgb(97, 97, 97);
+  color: white;
+  margin: 0.25rem;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}

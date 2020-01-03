@@ -1,0 +1,64 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+/* .root {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(93, 93, 93, 65%);
+  z-index: 1200;
+}
+
+.container {
+  position: fixed;
+  top: 25vh;
+  left: 75%;
+  right: 25vw;
+  margin-left: -50%;
+  min-width: 200px;
+  max-width: 400px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 30rem 2rem rgb(93, 93, 93);
+} */
+
+.title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+textarea {
+  width: 100%;
+  height: 4rem;
+}
+
+/* .button {
+  text-transform: uppercase;
+  margin: 0 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+
+.button__close {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+} */

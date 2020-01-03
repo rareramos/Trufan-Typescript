@@ -1,0 +1,6 @@
+{
+  "name": "FanTable",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FanTable.js"
+}
