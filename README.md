@@ -152,35 +152,6 @@ We love your feedback!
 </table>
 
 
-### Backers
-
-♥ React Starter Kit? Help us keep it alive by donating funds to cover project
-expenses via [OpenCollective](https://opencollective.com/react-starter-kit) or
-[Bountysource](https://salt.bountysource.com/teams/react-starter-kit)!
-
-<a href="http://www.nekst.me/" target="_blank" title="lehneres">
-  <img src="https://github.com/lehneres.png?size=64" width="64" height="64" alt="lehneres">
-</a>
-<a href="http://www.vidpanel.com/" target="_blank" title="Tarkan Anlar">
-  <img src="https://github.com/tarkanlar.png?size=64" width="64" height="64" alt="Tarkan Anlar">
-</a>
-<a href="https://morten.olsen.io/" target="_blank" title="Morten Olsen">
-  <img src="https://github.com/mortenolsendk.png?size=64" width="64" height="64" alt="Morten Olsen">
-</a>
-<a href="https://twitter.com/adamthomann" target="_blank" title="Adam">
-  <img src="https://github.com/athomann.png?size=64" width="64" height="64" alt="Adam">
-</a>
-<a href="http://dsernst.com/" target="_blank" title="David Ernst">
-  <img src="https://github.com/dsernst.png?size=64" width="64" height="64" alt="David Ernst">
-</a>
-<a href="http://zanehitchcox.com/" target="_blank" title="Zane Hitchcox">
-  <img src="https://github.com/zwhitchcox.png?size=64" width="64" height="64" alt="Zane Hitchcox">
-</a>
-<a href="https://opencollective.com/react-starter-kit" target="_blank">
-  <img src="https://opencollective.com/static/images/become_backer.svg" width="64" height="64" alt="">
-</a>
-
-
 ### How to Contribute
 
 Anyone and everyone is welcome to [contribute](CONTRIBUTING.md) to this project. The best way to
