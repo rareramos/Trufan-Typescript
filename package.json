@@ -55,7 +55,7 @@
     "redux": "^4.0.1",
     "sendgrid": "^5.2.3",
     "sentiment": "^5.0.1",
-    "sequelize": "^4.37.10",
+    "sequelize": "^5.15.1",
     "serialize-javascript": "^1.5.0",
     "source-map-support": "^0.5.6",
     "sqlite3": "^4.0.0",
