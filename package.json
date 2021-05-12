@@ -21,7 +21,7 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.23",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "classnames": "^2.2.6",
     "cookie-parser": "^1.4.3",
     "csv-writer": "^1.2.0",
